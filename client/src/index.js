@@ -6,6 +6,9 @@ import App from './App';
 import { AuthProvider } from './context/AuthContext';
 import './styles.css';
 
+// Fake AWS Key (for testing Gitleaks only!)
+const AWS_SECRET_KEY = "AKIA1234567890FAKEKEY";
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <AuthProvider>
