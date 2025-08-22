@@ -19,6 +19,14 @@ jobs:
         with:
           node-version: '23'   # adjust version as per your Jenkins setup
 
+      - name: Verify Node.js installation
+        run: |
+          echo "Checking Node.js and npm availability..."
+          which node
+          node -v
+          npm -v
+          echo "PATH is: $PATH"
+          
       - name: Frontend Compilation (Syntax Check)
         run: |
           cd client
