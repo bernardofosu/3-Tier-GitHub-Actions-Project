@@ -2,7 +2,7 @@
 
 This repository contains a simple Node.js API and a React client used for a user management demo. Follow the steps below to get the project running locally.
 
-![3-Tier-GitHub-Actions-Project](./3-Tier-GitHub-Actions-Project.png)
+![3-Tier-GitHub-Actions-Project](./3-Tier-GitHub-Actions-Project.jpg)
 
 ## Setup
 
